@@ -13,7 +13,6 @@ public class CallableDemo {
         for (int i = 0; i < 10; i++) {
             results.add(exec.submit(new TaskWithResult(i)));
         }
-        System.out.println(results);
         for (Future<String> fs : results) {
             try {
                 System.out.println(fs.get());
