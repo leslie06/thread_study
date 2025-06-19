@@ -1,4 +1,4 @@
-package org.example.thread;
+package org.example.liftOff;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 添加sleep方法，线程可以依次执行任务
  */
-public class SleepingTask extends LiftOff{
+public class SleepingTask extends LiftOff {
     public void run() {
         try{
             while(countDown-- > 0) {

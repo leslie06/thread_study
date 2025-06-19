@@ -1,4 +1,4 @@
-package org.example.shareResource;
+package org.example.intGenerator;
 
 public class SynchronizedEvenGenerator extends EvenGenerator {
     private int currentEvenValue = 0;

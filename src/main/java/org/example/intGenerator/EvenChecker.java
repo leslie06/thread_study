@@ -1,4 +1,4 @@
-package org.example.shareResource;
+package org.example.intGenerator;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

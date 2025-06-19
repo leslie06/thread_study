@@ -1,4 +1,4 @@
-package org.example.thread;
+package org.example.priority;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

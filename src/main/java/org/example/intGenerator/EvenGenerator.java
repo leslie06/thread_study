@@ -1,4 +1,4 @@
-package org.example.shareResource;
+package org.example.intGenerator;
 
 public class EvenGenerator extends IntGenerator {
     private int currentEvenValue = 0;

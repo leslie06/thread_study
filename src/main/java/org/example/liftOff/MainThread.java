@@ -1,4 +1,4 @@
-package org.example.thread;
+package org.example.liftOff;
 
 public class MainThread {
     public static void main(String[] args) {

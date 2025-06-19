@@ -1,4 +1,4 @@
-package org.example.shareResource;
+package org.example.intGenerator;
 
 public abstract class IntGenerator {
     private volatile boolean canceled = false;
