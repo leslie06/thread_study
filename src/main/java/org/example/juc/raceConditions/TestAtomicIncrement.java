@@ -1,4 +1,4 @@
-package org.example.thread.raceConditions;
+package org.example.juc.raceConditions;
 
 import java.util.concurrent.atomic.AtomicLong;
 

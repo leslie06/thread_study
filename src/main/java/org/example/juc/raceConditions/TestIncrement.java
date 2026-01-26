@@ -1,4 +1,4 @@
-package org.example.thread.raceConditions;
+package org.example.juc.raceConditions;
 
 /**
  * 不安全的i++

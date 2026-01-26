@@ -1,4 +1,4 @@
-package org.example.thread.raceConditions;
+package org.example.juc.raceConditions;
 
 public class TestAtomicIncrementDemo {
     public static void main(String[] args) throws InterruptedException {

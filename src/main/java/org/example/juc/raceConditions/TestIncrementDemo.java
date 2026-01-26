@@ -1,12 +1,15 @@
-package org.example.thread.raceConditions;
+package org.example.juc.raceConditions;
 
-public class TestSynchronizedIncrementDemo {
+public class TestIncrementDemo {
+
+
 
     public static void main(String[] args) throws InterruptedException {
+
         int threadNum = 20;
         int incrementNum = 10000;
 
-        TestSynchronizedIncrement testIncrement = new TestSynchronizedIncrement();
+        TestIncrement testIncrement = new TestIncrement();
         Thread[] threads = new Thread[threadNum];
         for(int i = 0;i < threadNum;i++){
             threads[i] = new Thread(() ->{
@@ -26,6 +29,6 @@ public class TestSynchronizedIncrementDemo {
         System.out.println("最终结果: " + testIncrement.getCount());
 
         System.out.println("期望结果: " + (threadNum * incrementNum));
-    }
 
+    }
 }
