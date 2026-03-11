@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bd175b9-4ddd-46a7-b8f9-f93c54592a49" name="Changes" comment="JUC代码提交">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/CounterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/TwoThreadSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/UnsafeListDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/kangyu/project/thread_study" value="38bcaNtlhY2C5nhyiee02VDohhR" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;leslie06&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/leslie06/thread_study.git&quot;,
+    &quot;accountId&quot;: &quot;66e93fef-22be-42e4-bf5c-c59af664f634&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="/usr/local/apache-maven-3.9.11/" />
+        <option name="localRepository" value="$USER_HOME$/environment/maven/repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="/usr/local/apache-maven-3.9.11/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="38bcaNtlhY2C5nhyiee02VDohhR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CallableDemo.executor": "Run",
+    "Application.CountDownLatchDemo.executor": "Run",
+    "Application.CounterDemo.executor": "Run",
+    "Application.CyclicBarrierDemo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OddEvenPrint.executor": "Run",
+    "Application.SemaphoreDemo.executor": "Run",
+    "Application.TestAtomicIncrementDemo.executor": "Run",
+    "Application.TestIncrementDemo.executor": "Run",
+    "Application.TestSynchronizedIncrementDemo.executor": "Run",
+    "Application.TwoThreadSum.executor": "Run",
+    "Application.UnsafeListDemo.executor": "Run",
+    "Maven.demo [clean].executor": "Run",
+    "Maven.demo [install].executor": "Run",
+    "Maven.thread_study [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kangyu/project/thread_study",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.52988505",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.OversellDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.CallableDemo" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.base0311.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.CounterDemo" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.base0311.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OversellDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.OversellDemo" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.base0311.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoThreadSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.TwoThreadSum" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.base0311.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsafeListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.UnsafeListDemo" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.base0311.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OversellDemo" />
+        <item itemvalue="Application.UnsafeListDemo" />
+        <item itemvalue="Application.CounterDemo" />
+        <item itemvalue="Application.TwoThreadSum" />
+        <item itemvalue="Application.CallableDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bd175b9-4ddd-46a7-b8f9-f93c54592a49" name="Changes" comment="" />
+      <created>1769071774089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769071774089</updated>
+    </task>
+    <task id="LOCAL-00001" summary="测试i++的安全性">
+      <option name="closed" value="true" />
+      <created>1769071953857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769071953857</updated>
+    </task>
+    <task id="LOCAL-00002" summary="threadlocal解决上下文的传递">
+      <option name="closed" value="true" />
+      <created>1769154161023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769154161023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JUC代码提交">
+      <option name="closed" value="true" />
+      <created>1769416300161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769416300161</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试i++的安全性" />
+    <MESSAGE value="threadlocal解决上下文的传递" />
+    <MESSAGE value="JUC代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUC代码提交" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
