@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bd175b9-4ddd-46a7-b8f9-f93c54592a49" name="Changes" comment="JUC代码提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/CounterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/TwoThreadSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/UnsafeListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/ComputeIfAbsentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/GetThenPutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/OnceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/PutIfAbsentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/SafeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/TaskRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/TicketDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +68,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankAccount.executor": "Run",
     "Application.CallableDemo.executor": "Run",
+    "Application.ComputeIfAbsentDemo.executor": "Run",
     "Application.CountDownLatchDemo.executor": "Run",
     "Application.CounterDemo.executor": "Run",
     "Application.CyclicBarrierDemo.executor": "Run",
+    "Application.GetThenPutDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.OddEvenPrint.executor": "Run",
+    "Application.OnceDemo.executor": "Run",
+    "Application.OversellDemo.executor": "Run",
+    "Application.PutIfAbsentDemo.executor": "Run",
+    "Application.SafeCounter.executor": "Run",
     "Application.SemaphoreDemo.executor": "Run",
+    "Application.TaskRunner.executor": "Run",
     "Application.TestAtomicIncrementDemo.executor": "Run",
     "Application.TestIncrementDemo.executor": "Run",
     "Application.TestSynchronizedIncrementDemo.executor": "Run",
+    "Application.TicketDemo.executor": "Run",
     "Application.TwoThreadSum.executor": "Run",
     "Application.UnsafeListDemo.executor": "Run",
     "Maven.demo [clean].executor": "Run",
@@ -90,9 +105,9 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OversellDemo">
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.CallableDemo" />
+  <component name="RunManager" selected="Application.ComputeIfAbsentDemo">
+    <configuration name="ComputeIfAbsentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.ComputeIfAbsentDemo" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.CounterDemo" />
+    <configuration name="GetThenPutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.GetThenPutDemo" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OversellDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.OversellDemo" />
+    <configuration name="OnceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.OnceDemo" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoThreadSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.TwoThreadSum" />
+    <configuration name="PutIfAbsentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.PutIfAbsentDemo" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsafeListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.UnsafeListDemo" />
+    <configuration name="TaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.TaskRunner" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OversellDemo" />
-        <item itemvalue="Application.UnsafeListDemo" />
-        <item itemvalue="Application.CounterDemo" />
-        <item itemvalue="Application.TwoThreadSum" />
-        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.ComputeIfAbsentDemo" />
+        <item itemvalue="Application.PutIfAbsentDemo" />
+        <item itemvalue="Application.GetThenPutDemo" />
+        <item itemvalue="Application.OnceDemo" />
+        <item itemvalue="Application.TaskRunner" />
       </list>
     </recent_temporary>
   </component>
