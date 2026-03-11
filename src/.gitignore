@@ -1,0 +1,10 @@
+# 编译产物
+*.class
+target/
+
+# IDEA 配置
+.idea/
+*.iml
+
+# Maven
+*.jar
