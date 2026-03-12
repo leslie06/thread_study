@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bd175b9-4ddd-46a7-b8f9-f93c54592a49" name="Changes" comment="JUC代码提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/ComputeIfAbsentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/GetThenPutDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/OnceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/PutIfAbsentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/SafeCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/TaskRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/TicketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/CustomThreadPoolHandleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/ProcessComputeIfAbsentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/ProcessorGetPutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/ProcessorPutIfAbsentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/base0311/ThreadPoolHandleTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/base0311/ComputeIfAbsentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/base0311/ComputeIfAbsentDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +72,16 @@
     "Application.ComputeIfAbsentDemo.executor": "Run",
     "Application.CountDownLatchDemo.executor": "Run",
     "Application.CounterDemo.executor": "Run",
+    "Application.CustomThreadPoolHandleTask.executor": "Run",
     "Application.CyclicBarrierDemo.executor": "Run",
     "Application.GetThenPutDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.OddEvenPrint.executor": "Run",
     "Application.OnceDemo.executor": "Run",
     "Application.OversellDemo.executor": "Run",
+    "Application.ProcessComputeIfAbsentDemo.executor": "Run",
+    "Application.ProcessorGetPutDemo.executor": "Run",
+    "Application.ProcessorPutIfAbsentDemo.executor": "Run",
     "Application.PutIfAbsentDemo.executor": "Run",
     "Application.SafeCounter.executor": "Run",
     "Application.SemaphoreDemo.executor": "Run",
@@ -86,6 +89,7 @@
     "Application.TestAtomicIncrementDemo.executor": "Run",
     "Application.TestIncrementDemo.executor": "Run",
     "Application.TestSynchronizedIncrementDemo.executor": "Run",
+    "Application.ThreadPoolHandleTask.executor": "Run",
     "Application.TicketDemo.executor": "Run",
     "Application.TwoThreadSum.executor": "Run",
     "Application.UnsafeListDemo.executor": "Run",
@@ -105,9 +109,9 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComputeIfAbsentDemo">
-    <configuration name="ComputeIfAbsentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.ComputeIfAbsentDemo" />
+  <component name="RunManager" selected="Application.CustomThreadPoolHandleTask">
+    <configuration name="CustomThreadPoolHandleTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.CustomThreadPoolHandleTask" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetThenPutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.GetThenPutDemo" />
+    <configuration name="ProcessComputeIfAbsentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.ProcessComputeIfAbsentDemo" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.OnceDemo" />
+    <configuration name="ProcessorGetPutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.ProcessorGetPutDemo" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutIfAbsentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.PutIfAbsentDemo" />
+    <configuration name="ProcessorPutIfAbsentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.ProcessorPutIfAbsentDemo" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +162,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.base0311.TaskRunner" />
+    <configuration name="ThreadPoolHandleTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.base0311.ThreadPoolHandleTask" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -182,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComputeIfAbsentDemo" />
-        <item itemvalue="Application.PutIfAbsentDemo" />
-        <item itemvalue="Application.GetThenPutDemo" />
-        <item itemvalue="Application.OnceDemo" />
-        <item itemvalue="Application.TaskRunner" />
+        <item itemvalue="Application.CustomThreadPoolHandleTask" />
+        <item itemvalue="Application.ThreadPoolHandleTask" />
+        <item itemvalue="Application.ProcessComputeIfAbsentDemo" />
+        <item itemvalue="Application.ProcessorPutIfAbsentDemo" />
+        <item itemvalue="Application.ProcessorGetPutDemo" />
       </list>
     </recent_temporary>
   </component>
